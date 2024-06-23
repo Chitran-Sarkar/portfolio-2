@@ -1008,7 +1008,6 @@ mask-clip: border-box;
   display: grid;
   gap: 20px;
   padding: 10px;
-  grid-template-columns:auto auto auto;
   color:var(--light-gray);
 }
 .skills-grid i,.material-symbols-outlined{
@@ -1441,7 +1440,11 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
 
-
+@media (max-width: 580px){
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  }
 
 
 
@@ -1481,6 +1484,9 @@ textarea.form-input::-webkit-resizer { display: none; }
  */
 
 @media (min-width: 580px) {
+.skills-grid {
+  grid-template-columns:auto auto auto;
+}
 
   /**
    * CUSTOM PROPERTY
