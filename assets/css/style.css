@@ -277,16 +277,6 @@ article {
   .skills-grid {
     grid-template-columns: repeat(2, 1fr);
   }
- #element{
-	 font-size: 1rem;
- }
- #grey{
-	 font-size: 1rem;
- }
-	
- #left{
-	 font-size: 1rem;
- }
 }
 .icon-box::before {
   content: "";
@@ -2165,4 +2155,16 @@ textarea.form-input::-webkit-resizer { display: none; }
  body{
   margin-bottom: 0px;
  } 
+@media (max-width: 580px) {
+#element{
+	 font-size: 1rem;
+ }
+ #grey{
+	 font-size: 1rem;
+ }
+	
+ #left{
+	 font-size: 1rem;
+ }
+}
 
