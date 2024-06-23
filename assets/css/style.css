@@ -273,6 +273,10 @@ article {
     width: 65px;
     height: 87px;
   }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
  
 }
 .icon-box::before {
