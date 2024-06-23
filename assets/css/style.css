@@ -277,7 +277,16 @@ article {
   .skills-grid {
     grid-template-columns: repeat(2, 1fr);
   }
- 
+ #element{
+	 font-size: 1rem;
+ }
+ #grey{
+	 font-size: 1rem;
+ }
+	
+ #left{
+	 font-size: 1rem;
+ }
 }
 .icon-box::before {
   content: "";
