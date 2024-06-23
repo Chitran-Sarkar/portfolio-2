@@ -625,7 +625,6 @@ mask-clip: border-box;
 }
 #left, #right {
   padding-top: 5%;
-  font-size: 2.5rem;
   display: inline-block;
 }
 #left{
@@ -658,10 +657,8 @@ mask-clip: border-box;
 #grey {
   color: rgb(85, 89, 105);
   font-weight: 400;
-  font-size: 2.5rem;
 }
 #element{
-  font-size: 2.5rem;
   color:var(--light-gray);
 }
 
@@ -1474,6 +1471,16 @@ textarea.form-input::-webkit-resizer { display: none; }
   /**
    * client
    */
+	#element{
+	 font-size: 2.5rem;
+ }
+ #grey{
+	 font-size: 2.5rem;
+ }
+	
+ #left{
+	 font-size: 2.5rem;
+ }
 
   .clients-item { min-width: calc(33.33% - 10px); }
 
